@@ -1,0 +1,17 @@
+let
+    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i45WMjDUByIjA0MDpdhYAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [StartDate = _t]),
+    #"Added Custom" = Table.AddColumn(Source, "EndDate", each Date.From(DateTime.LocalNow())),
+    #"Changed Type2" = Table.TransformColumnTypes(#"Added Custom",{{"EndDate", type date}}),
+    #"Changed Type" = Table.TransformColumnTypes(#"Changed Type2",{{"StartDate", type date}}),
+    #"Added Custom1" = Table.AddColumn(#"Changed Type", "Dates", each {Number.From([StartDate])..Number.From([EndDate])}),
+    #"Expanded Dates" = Table.ExpandListColumn(#"Added Custom1", "Dates"),
+    #"Changed Type1" = Table.TransformColumnTypes(#"Expanded Dates",{{"Dates", type date}}),
+    #"Removed Columns1" = Table.RemoveColumns(#"Changed Type1",{"StartDate", "EndDate"}),
+    #"Année insérée" = Table.AddColumn(#"Removed Columns1", "Année", each Date.Year([Dates]), Int64.Type),
+    #"Mois inséré" = Table.AddColumn(#"Année insérée", "Mois", each Date.Month([Dates]), Int64.Type),
+    #"Nom du mois inséré" = Table.AddColumn(#"Mois inséré", "Nom du mois", each Date.MonthName([Dates]), type text),
+    #"Trimestre inséré" = Table.AddColumn(#"Nom du mois inséré", "Trimestre", each Date.QuarterOfYear([Dates]), Int64.Type),
+    #"Jour inséré" = Table.AddColumn(#"Trimestre inséré", "Jour", each Date.Day([Dates]), Int64.Type),
+    #"Colonnes supprimées" = Table.RemoveColumns(#"Jour inséré",{"Jour"})
+in
+    #"Colonnes supprimées"
