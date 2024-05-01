@@ -1,142 +1,99 @@
-# Power-BI-Solution-for-Telecom-Company
+Ces projet a été réalisé dans le cadre de la mise en place d'un portfolio BI. Les livrables principaux :
 
-This project is completed during the PwC Digital Accelerator Program, aimed to provide a Power BI solution to a Telecom Company. The project had three key deliverables:
+1) Tableau de bord des données du centre d'appels : Un tableau de bord Power BI a été créé pour visualiser et analyser les données du centre d'appels.
+2) Analyse de l'attrition des clients : Une solution BI a été développée pour comprendre la résiliation des clients.
+3) Analyse de la gestion du capital humain : Une analyse a été menée pour comprendre la diversité et l'inclusion au sein de l'organisation.
 
- 1) Call Center Data Dashboard: A Power BI dashboard was created to visualize and analyze call center data.
- 2) Telecom Customer Churn Analysis: A BI solution was developed to understand and predict customer churn.
- 3) Diversity and Inclusion Analysis: An analysis was conducted to understand diversity and inclusion within the organization.
+### 1. Analyse des données du centre d'appels :
 
-### 1. Analysis of Call Centre’s Data : 
+Le rapport couvre une analyse des données d'appels du centre d'appels. L'objectif était de suivre le processus et la performance des agents.
 
-Report covers an analysis of call data from call center. The aim was to track the
-process and performance of agents. 
+#### Aperçu des données d'appels :
 
-#### Overview of Call Data :
-
-  #### Total no of calls received : 5000
-  #### Call Topics with count of call received:
-* Technical Support: 1019
-* Streaming: 1022
-* Payment related: 1007
-* Contract related: 976
-* Admin Support: 976
+  #### Nombre total d'appels reçus
+  #### Sujets d'appels :
+* Support technique
+* Streaming
+* Liés aux paiements
+* Liés au contrat
+* Support administratif
   
 
-#### Key Findings
+#### Principales conclusions
 
-* Out of the total calls received, 4054 were answered, with a total of 3646 calls
-resolved.
-* The average call satisfaction rating was 3.4/5, which is below the
-ideal/recommended call satisfaction rate of 4.5.
-* The average speed of answer by an agent was 54.75 seconds.
-* There were several unanswered calls across different topics, with Technical
-Support contributing the most with 214 unanswered calls.
+* Sur l'ensemble des appels reçus ont été répondus, avec un certain nombre d'appels résolus.
+* La note moyenne de satisfaction des appels était de 3,4/5, ce qui est inférieur au taux de satisfaction idéal/recommandé de 4,5.
+* La vitesse moyenne de réponse par un agent était de 54,75 secondes.
+* Il y a eu plusieurs appels non répondus sur différents sujets, le support technique contribuant le plus avec 214 appels non répondus.
 
-#### Detailed Breakdown by Topic : 
-| Topic | # Calls Unanswered | # Calls Resolved | 
+#### Détail par sujet :
+
+| Sujet | # Appels non répondus | # Appels résolus | 
 |----------|----------|----------|
-| Technical Support | 214 | 736 |
+| Support technique | 214 | 736 |
 | Streaming | 175 | 749 | 
-| Payment related | 189 |  729 | 
-| Contract related | 187 | 729 | 
-| Admin Support | 181 | 723 |  
+| Liés aux paiements | 189 |  729 | 
+| Liés au contrat | 187 | 729 | 
+| Support administratif | 181 | 723 |  
 
-#### Call Resolution Details 
+#### Détails de la résolution des appels
 
-The call resolution rate by agents varied from 88% to 91%, which is below the ideal/recommended benchmark of call resolution rate of 95%.
+Le taux de résolution des appels par les agents variait de 88% à 91%, ce qui est inférieur au taux de résolution idéal/recommandé de 95%.
 
-#### Implications and Recommendations
+#### Implications et recommandations
 
-Given these findings, there are several areas where performance can be improved:
+Compte tenu de ces résultats, il existe plusieurs domaines où la performance peut être améliorée :
 
-1. Improve Call Satisfaction: With an average rating of 3.4/5, there is room for improvement in customer satisfaction. Training programs focusing on customer handling and problem-solving can be beneficial.
-2. Reduce Unanswered Calls: The number of unanswered calls, especially in Technical Support, is a concern. Allocating more resources or improving efficiency in these areas could help reduce the number of unanswered calls.
-3. Increase Call Resolution Rate: The call resolution rate is below the ideal benchmark. Strategies to improve this could include additional training for agents or reviewing the current processes for potential inefficiencies.
+1. Améliorer la satisfaction des appels : Avec une note moyenne de 3,4/5, il y a de la place pour améliorer la satisfaction client. Des programmes de formation axés sur la gestion client et la résolution de problèmes peuvent être bénéfiques.
+2. Réduire les appels non répondus : Le nombre d'appels non répondus, en particulier dans le support technique, est préoccupant. Allouer plus de ressources ou améliorer l'efficacité dans ces domaines pourrait aider à réduire le nombre d'appels non répondus.
+3. Augmenter le taux de résolution des appels : Le taux de résolution des appels est inférieur au benchmark idéal. Des stratégies pour améliorer cela pourraient inclure une formation supplémentaire pour les agents ou la révision des processus actuels pour d'éventuelles inefficacités.
 
+### 2. Analyse de l'attrition des clients
 
-[PowerBi Dahboard](https://github.com/altmash-bagwan/Power-BI-Solution-for-Telecom-Company-/blob/main/Call%20Centre%20Calls%20Analysis/Call%20Centre%20Trends.pbix)
+#### Qu'est-ce que la résiliation des clients ?
 
-   
-![alt text](https://github.com/altmash-bagwan/Power-BI-Solution-for-Telecom-Company-/blob/main/Call%20Centre%20Calls%20Analysis/Call_centre_Data.png)
+La résiliation des clients fait référence au cycle naturel des affaires de perdre et d'acquérir des clients. Chaque entreprise - quelle que soit la qualité de ses produits ou de ses services client - connaît une résiliation. Dans le contexte des entreprises, la résiliation des clients peut survenir en raison de facteurs tels que la insatisfaction à l'égard du produit ou du service, les offres concurrentielles, ou les changements de circonstances ou de préférences du client. En général, moins une entreprise a de résiliation, plus elle conserve de clients.
 
-### 2. Telecom Customer Churn Analysis 
+##### Le rapport a fourni un moyen clair et interactif de communiquer mes résultats, aidant le client à mieux comprendre le comportement de ses clients et à prendre des décisions éclairées pour améliorer la rétention des clients.
 
-#### What is Customer Churn?
+#### Principaux résultats :
 
-Customer Churn refers to the natural business cycle of losing and acquiring customers. Every company — no matter the quality of its products or customer service experiences churn. In the context of businesses, customer churn can occur due to factors such as dissatisfaction with the product or service, competitive offerings, or changes in circumstances or preferences of the customer. Generally speaking, the less churn a company has, the more customers they keep.
+##### De la base de clients :
 
-#####  The report provided a clear and interactive way to communicate my findings, helping the client to better understand their customer behavior and make informed decisions to improve customer retention.
+* Il y a presque autant d'hommes que de femmes dans la base de clients.
+* Dans l'ensemble de la base de clients, 53,45% des clients utilisent les services depuis moins d'un an.
+* Sur le compte des clients, il est constaté que 55% des clients ont un contrat mensuel et 24% un contrat de deux ans, et 20% un contrat d'un an.
+* 75% des clients préfèrent la facturation électronique.
+* La méthode de paiement la plus préférée est le chèque électronique, 35,6% du total utilisent la même méthode.
 
+#### De l'analyse du risque :
 
-#### Key Insights :
+* Le taux de résiliation global est de 26,54 %. Le nombre total de clients résiliés est de 1869.
+* Les personnes âgées sont plus susceptibles de résilier, 25% des abonnés seniors ont résilié.
+* Parmi les abonnés au service Internet, 41% des clients résiliés étaient des utilisateurs de fibre optique.
+* Les clients avec un contrat mensuel sont les plus susceptibles de résilier, avec un taux de résiliation de 42%.
+* Plus l'année de contrat est élevée, plus le taux de résiliation est faible.
+* Seuls 2,8% de taux de résiliation chez les clients ayant un contrat de 2 ans.  
 
-##### From Customer Base : 
+### Recommandations
 
-* There is almost equal number of male - female in customer base.
-* In total Customer base 53.45% of customer are using services from less then 1 year.  
-* From customer account it is found that 55% of customer are on month to month contract type and 24% are two year contract and 20% are on 1 year contract, using service.
-* 75% of Customer prefer Paperless billing.
-* Most perefered payment method is electronic check, 35.6% of total used same method.
+* Encourager les clients à opter pour des durées de contrat plus longues, telles que des contrats d'un ou deux ans, car ces clients sont moins susceptibles de résilier.
+* Offrir des incitations aux clients pour qu'ils passent de contrats mensuels à des contrats à plus long terme.
+* Fournir aux personnes âgées des offres et des services adaptés qui répondent à leurs besoins et préoccupations uniques afin de réduire les taux de résiliation.
+* Se concentrer sur la fidélisation des clientes avec des contrats mensuels, car elles semblent être plus susceptibles de résilier que les clients masculins avec le même type de contrat.
+* Offrir des options de paiement pratiques et automatiser les processus de paiement pour réduire le nombre de clients qui résilient en raison
 
-#### From Risk Analysis : 
+ du mode de paiement manuel.
+* Traiter les raisons derrière la résiliation des clients avec une connexion Internet par fibre optique pour réduire le taux de résiliation élevé parmi ce segment de clients.
 
-* Overall Churn Rate is 26.54 % . Total customer churned is 1869
-* Senior-Citizens are more likely to churn, 25% of senior-citizen subscribers churned.
-* Form internet service subscribers 41% of customers churned were from fibre optics user.
-* customers with month-month contract are most likely to churn,churn rate of 42%.
-* Higher the year of contract the lower is churn rate.
-* Only 2.8% of churn rate in customers having 2 years of contract.  
+### 3. Analyse de la gestion du capital humain :
 
-### Recommendations
+Dans ce rapport, une analyse de la diversité et de l'inclusion des ressources humaines est effectuée. J'ai conçu un rapport de tableau de bord Power BI et formulé des mesures pour définir des KPI pertinents afin de suivre et d'évaluer les initiatives de diversité de l'organisation. J'ai analysé diverses caractéristiques démographiques, telles que le genre, l'âge, la nationalité, et j'ai utilisé les données pour calculer des métriques critiques afin d'obtenir des informations précieuses sur les efforts de diversité et d'inclusion de l'organisation. Ce projet a servi d'outil précieux pour les responsables RH pour évaluer et mesurer les progrès de l'organisation vers la création d'une culture de travail plus diversifiée et inclusive. Grâce à ce projet, j'ai pu fournir des informations exploitables et des décisions basées sur les données pour garantir la croissance continue de l'organisation vers les objectifs de diversité et d'inclusion.
 
-* Encourage customers to opt for longer contract durations, such as one or two-year contracts, as these customers are less likely to churn.
-* Provide incentives for customers to switch from month-to-month contracts to longer-term contracts.
-* Provide senior citizens with tailored offers and services that address their unique needs and concerns to reduce churn rates.
-* Focus on retaining female customers with month-to-month contracts, as they appear to be more likely to churn than male customers with the same contract type.
-* Offer convenient payment options and automate payment processes to reduce the number of customers who churn due to manual payment mode.
-* Address the reasons behind the churn of customers with fiber optic internet to reduce the high churn rate among this customer segment.
-  
+#### Principales observations et recommandations  
 
+* Il y a un manque de diversité dans la haute direction où toute la haute direction et la direction exécutive sont majoritairement masculines, ce qui indique qu'il peut y avoir des biais dans le recrutement et des inégalités de genre dans la promotion.
+* La plupart des femmes employées occupent des postes juniors, donc les organisations peuvent revoir les pratiques de recrutement et d'embauche et fournir un accès à la formation et aux opportunités de développement pour aider les femmes à développer les compétences nécessaires pour progresser vers des postes de niveau supérieur. Cela pourrait inclure des programmes de mentorat et de parrainage, des programmes de développement du leadership et une formation interfonctionnelle.
+* Le fait que les évaluations de performance moyennes pour l'exercice 2020 pour les employées et les employés soient très similaires (2,42 pour les femmes et 2,41 pour les hommes) suggère qu'il peut y avoir une égalité des genres en termes de performance au sein de l'entreprise. C'est un signe positif, car cela suggère que l'entreprise évalue les employés en fonction de leur performance réelle, plutôt que de tout biais ou stéréotypes basés sur le genre. Cependant, il peut y avoir des améliorations à apporter en termes de performance des employés, et il est important d'être vigilant pour les biais potentiels qui pourraient avoir un impact sur le processus d'évaluation.
 
-[Power Bi Dashboard](https://github.com/altmash-bagwan/Power-BI-Solution-for-Telecom-Company-/blob/main/Telcom%20Churn%20Analysis/Telecom%20Churn%20Analysis.pbix)
-
-![alt text](https://github.com/altmash-bagwan/Power-BI-Solution-for-Telecom-Company-/blob/main/Telcom%20Churn%20Analysis/Telecom%20Churn%20Analysis-2.jpg)
-
-![alt text](https://github.com/altmash-bagwan/Power-BI-Solution-for-Telecom-Company-/blob/main/Telcom%20Churn%20Analysis/Telecom%20Churn%20Analysis-3.jpg)
-
-
-### 3. Diversity and Inclusion Analysis : 
-
-   In this report HR Diversity and Inclusion analysis is done, I designed a Power BI dashboard report and formulated measures to define relevant KPIs to track and evaluate the organization's diversity initiatives. I analyzed various demographic characteristics, such as gender, age, nationality and utilized the data to calculate critical metrics to gain valuable insights into the organization's diversity and inclusion efforts.
-   This project served as a valuable tool for HR managers to evaluate and measure the organization's progress towards creating a more diverse and inclusive workplace culture. Through this project, I was able to provide actionable insights and data-driven decisions to ensure the organization's continuous growth towards diversity and inclusion goals.
-
-#### Key Insights and Recommandations  
-
-* There is a lack of diversity in the senior management where all senior and executive management are predominantly male, indicating there may be bias in recruitment and gender inequality in promotion.
-
-* Most women employees are in junior positions so, the organizations can conduct a review of recruitment and hiring practices and provide access to training and development opportunities to help women develop the skills necessary to advance into higher-level positions. This could include mentorship and sponsorship programs, leadership development programs, and cross-functional training.
-
-* The fact that the average performance ratings for FY20 for female and male employees are very similar (2.42 for females and 2.41 for males) suggests that there may be gender equality in terms of performance within the company. This is a positive sign, as it suggests that the company is evaluating employees based on their actual performance, rather than any bias or stereotypes based on gender. However, there may be room for improvement in terms of employee performance, and it is important to be vigilant for potential biases that could impact the evaluation process.
-
-
-
-
-[PowerBi Dashboard](https://github.com/altmash-bagwan/Power-BI-Solution-for-Telecom-Company-/blob/main/Diversity%20and%20Inclusion/HR%20-%20Diversity%20_%20Inclusion.pbix)
-
-
-![alt text](https://github.com/altmash-bagwan/Power-BI-Solution-for-Telecom-Company-/blob/main/Diversity%20and%20Inclusion/HR%20-%20Diversity%20%26%20Inclusion-1.jpg)
-
-![alt text](https://github.com/altmash-bagwan/Power-BI-Solution-for-Telecom-Company-/blob/main/Diversity%20and%20Inclusion/HR%20-%20Diversity%20%26%20Inclusion-2.jpg)
-
-### Conclusion
-This HR Diversity and Inclusion Analysis project is a critical component in measuring and tracking an organization's diversity and inclusion initiatives. The project provides valuable insights for HR managers, proposed recommendations to make data-driven decisions and take proactive steps towards creating a more diverse and inclusive workplace culture.
-
-
-
-
-     
-
-
-
-    
-
+Ce projet d'analyse de la diversité et de l'inclusion des RH est un élément essentiel pour mesurer et suivre les initiatives de diversité et d'inclusion d'une organisation. Le projet fournit des informations précieuses pour les responsables RH, propose des recommandations pour prendre des décisions basées sur les données et prendre des mesures proactives pour créer une culture de travail plus diversifiée et inclusive.
