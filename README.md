@@ -84,14 +84,13 @@ Dans ce rapport, une analyse de la diversité et de l'inclusion des ressources h
 
 Ce projet d'analyse de la diversité et de l'inclusion des RH est un élément essentiel pour mesurer et suivre les initiatives de diversité et d'inclusion d'une organisation. Le projet fournit des informations précieuses pour les responsables RH, propose des recommandations pour prendre des décisions basées sur les données et prendre des mesures proactives pour créer une culture de travail plus diversifiée et inclusive.
 
-### Gestion commerciale
+### 4. Gestion commerciale
 
-Comprendre les données et leur histoire :
+* Comprendre les données et leur histoire :
 Tout projet d'Analyse de Données commence par une compréhension approfondie des données disponibles et de leur contexte.
 Dans ce projet, j'ai travaillé avec des données de vente comprenant des informations sur les commandes, les clients et les produits. 
-J'ai utilisé Power BI pour créer un tableau de bord interactif avec des visualisations percutantes pour découvrir les tendances de vente et les préférences des clients.
 
-Mesures clés utilisées dans le projet :
+* Mesures clés utilisées dans le projet :
 1- Chiffre d'Affaires par client : Mesure l'importance de chaque client en termes de revenus générés.
 2- Nombre total de produits par commande : Permet de comprendre la taille moyenne des commandes et l'engagement des clients.
 3- Chiffre d'affaires par catégorie de produit : Met en évidence les catégories de produits les plus rentables et les plus demandées.
@@ -99,6 +98,6 @@ Mesures clés utilisées dans le projet :
 5- Chiffre d'affaires par mois, trimestre et par année : Permet de détecter les tendances saisonnières et les variations de la demande.
 
 Stratégies Data-Driven pour façonner l'avenir :
-1- Analyse prédictive pour anticiper la demande : En utilisant les données historiques de vente, on peut développer des modèles prédictifs pour anticiper la demande future, aidant ainsi l'entreprise à ajuster ses stocks et sa production en conséquence.
-2- Optimisation des opérations : En analysant les performances opérationnelles telles que le temps de traitement des commandes et les coûts logistiques, j'ai identifié des inefficacités et proposé des améliorations pour optimiser les processus et réduire les coûts.
-3- Identification de nouveaux marchés et segments de clientèle  : En analysant les données géographiques et démographiques des clients, on peut identifier de nouveaux marchés et segments de clientèle à cibler, ouvrant ainsi de nouvelles opportunités de croissance.
+* Analyse prédictive pour anticiper la demande : En utilisant les données historiques de vente, on peut développer des modèles prédictifs pour anticiper la demande future, aidant ainsi l'entreprise à ajuster ses stocks et sa production en conséquence.
+* Optimisation des opérations : En analysant les performances opérationnelles telles que le temps de traitement des commandes et les coûts logistiques, j'ai identifié des inefficacités et proposé des améliorations pour optimiser les processus et réduire les coûts.
+* Identification de nouveaux marchés et segments de clientèle  : En analysant les données géographiques et démographiques des clients, on peut identifier de nouveaux marchés et segments de clientèle à cibler, ouvrant ainsi de nouvelles opportunités de croissance.
