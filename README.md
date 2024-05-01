@@ -2,9 +2,10 @@ Ces projets ont été réalisés dans le cadre de la mise en place d'un portfoli
 
 Les livrables principaux :
 
-1) Tableau de bord des données du centre d'appels : Un tableau de bord Power BI a été créé pour visualiser et analyser les données du centre d'appels.
-2) Analyse de l'attrition des clients : Une solution BI a été développée pour comprendre la résiliation des clients.
-3) Analyse de la gestion du capital humain : Une analyse a été menée pour comprendre la diversité et l'inclusion au sein de l'organisation.
+1) Tableau de bord des données du centre d'appels
+2) Analyse de l'attrition des clients
+3) Analyse de la gestion du capital humain
+4) Analyse de gestion commerciale
 
 ### 1. Analyse des données du centre d'appels :
 
@@ -86,7 +87,7 @@ Dans ce rapport, une analyse de la diversité et de l'inclusion des ressources h
 
 Ce projet d'analyse de la diversité et de l'inclusion des RH est un élément essentiel pour mesurer et suivre les initiatives de diversité et d'inclusion d'une organisation. Le projet fournit des informations précieuses pour les responsables RH, propose des recommandations pour prendre des décisions basées sur les données et prendre des mesures proactives pour créer une culture de travail plus diversifiée et inclusive.
 
-### 4. Gestion commerciale
+### 4. Analyse de la gestion commerciale
 
 * Comprendre les données et leur histoire :
 Tout projet d'Analyse de Données commence par une compréhension approfondie des données disponibles et de leur contexte.
