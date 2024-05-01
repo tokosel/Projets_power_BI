@@ -1,4 +1,6 @@
-Ces projet ont été réalisés dans le cadre de la mise en place d'un portfolio BI. Les livrables principaux :
+Ces projets ont été réalisés dans le cadre de la mise en place d'un portfolio BI.
+
+Les livrables principaux :
 
 1) Tableau de bord des données du centre d'appels : Un tableau de bord Power BI a été créé pour visualiser et analyser les données du centre d'appels.
 2) Analyse de l'attrition des clients : Une solution BI a été développée pour comprendre la résiliation des clients.
