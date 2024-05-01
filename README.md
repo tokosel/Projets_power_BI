@@ -1,4 +1,4 @@
-Ces projet a été réalisé dans le cadre de la mise en place d'un portfolio BI. Les livrables principaux :
+Ces projet ont été réalisés dans le cadre de la mise en place d'un portfolio BI. Les livrables principaux :
 
 1) Tableau de bord des données du centre d'appels : Un tableau de bord Power BI a été créé pour visualiser et analyser les données du centre d'appels.
 2) Analyse de l'attrition des clients : Une solution BI a été développée pour comprendre la résiliation des clients.
@@ -25,20 +25,6 @@ Le rapport couvre une analyse des données d'appels du centre d'appels. L'object
 * La note moyenne de satisfaction des appels était de 3,4/5, ce qui est inférieur au taux de satisfaction idéal/recommandé de 4,5.
 * La vitesse moyenne de réponse par un agent était de 54,75 secondes.
 * Il y a eu plusieurs appels non répondus sur différents sujets, le support technique contribuant le plus avec 214 appels non répondus.
-
-#### Détail par sujet :
-
-| Sujet | # Appels non répondus | # Appels résolus | 
-|----------|----------|----------|
-| Support technique | 214 | 736 |
-| Streaming | 175 | 749 | 
-| Liés aux paiements | 189 |  729 | 
-| Liés au contrat | 187 | 729 | 
-| Support administratif | 181 | 723 |  
-
-#### Détails de la résolution des appels
-
-Le taux de résolution des appels par les agents variait de 88% à 91%, ce qui est inférieur au taux de résolution idéal/recommandé de 95%.
 
 #### Implications et recommandations
 
