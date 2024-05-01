@@ -83,3 +83,22 @@ Dans ce rapport, une analyse de la diversité et de l'inclusion des ressources h
 * Le fait que les évaluations de performance moyennes pour l'exercice 2020 pour les employées et les employés soient très similaires (2,42 pour les femmes et 2,41 pour les hommes) suggère qu'il peut y avoir une égalité des genres en termes de performance au sein de l'entreprise. C'est un signe positif, car cela suggère que l'entreprise évalue les employés en fonction de leur performance réelle, plutôt que de tout biais ou stéréotypes basés sur le genre. Cependant, il peut y avoir des améliorations à apporter en termes de performance des employés, et il est important d'être vigilant pour les biais potentiels qui pourraient avoir un impact sur le processus d'évaluation.
 
 Ce projet d'analyse de la diversité et de l'inclusion des RH est un élément essentiel pour mesurer et suivre les initiatives de diversité et d'inclusion d'une organisation. Le projet fournit des informations précieuses pour les responsables RH, propose des recommandations pour prendre des décisions basées sur les données et prendre des mesures proactives pour créer une culture de travail plus diversifiée et inclusive.
+
+### Gestion commerciale
+
+Comprendre les données et leur histoire :
+Tout projet d'Analyse de Données commence par une compréhension approfondie des données disponibles et de leur contexte.
+Dans ce projet, j'ai travaillé avec des données de vente comprenant des informations sur les commandes, les clients et les produits. 
+J'ai utilisé Power BI pour créer un tableau de bord interactif avec des visualisations percutantes pour découvrir les tendances de vente et les préférences des clients.
+
+Mesures clés utilisées dans le projet :
+1- Chiffre d'Affaires par client : Mesure l'importance de chaque client en termes de revenus générés.
+2- Nombre total de produits par commande : Permet de comprendre la taille moyenne des commandes et l'engagement des clients.
+3- Chiffre d'affaires par catégorie de produit : Met en évidence les catégories de produits les plus rentables et les plus demandées.
+4- Chiffre d'affaires par boutique : Identifie les boutiques les plus performantes en termes de ventes.
+5- Chiffre d'affaires par mois, trimestre et par année : Permet de détecter les tendances saisonnières et les variations de la demande.
+
+Stratégies Data-Driven pour façonner l'avenir :
+1- Analyse prédictive pour anticiper la demande : En utilisant les données historiques de vente, on peut développer des modèles prédictifs pour anticiper la demande future, aidant ainsi l'entreprise à ajuster ses stocks et sa production en conséquence.
+2- Optimisation des opérations : En analysant les performances opérationnelles telles que le temps de traitement des commandes et les coûts logistiques, j'ai identifié des inefficacités et proposé des améliorations pour optimiser les processus et réduire les coûts.
+3- Identification de nouveaux marchés et segments de clientèle  : En analysant les données géographiques et démographiques des clients, on peut identifier de nouveaux marchés et segments de clientèle à cibler, ouvrant ainsi de nouvelles opportunités de croissance.
